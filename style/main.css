@@ -1,0 +1,123 @@
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base */
+body{
+    margin: 10px;
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+header .container{
+    display: flex;
+    align-items: center;
+    
+   
+}
+header .logo{
+     margin-left: 5px;
+     color:var(--vermelho);
+     font-family: Arial black;
+     font-size: 40px;
+ }
+
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+header nav a:hover{
+    color:#AAA;
+}
+
+/* série principal*/
+.container{
+    margin-left: 30px;
+}
+
+.titulo{
+    
+    font-size: 40px;
+    font-family: 'Helvetica';
+}
+.serie-principal{
+    color: #fff;
+    font-size: 16px;
+    background: url('/img/riverdale.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.serie-principal .descricao{
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+    background-color: #14141417;
+}
+.botao{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(141, 135, 135, 0.7);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+.botao1{
+    font-weight: bold;
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(243, 236, 236);
+    color:var(--preto);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+.botao1:hover{
+    font-weight: bold;
+    background-color:rgba(255, 249, 249, 0.534);
+}
+.botao:hover{
+     background-color:rgba(170, 170, 170, 0.219);
+    
+}
+.botao1 i{
+    margin-right: 5px;
+}
+.botao i{
+    color: rgb(251, 245, 245);
+    margin-right: 5px;
+}
+.serie-principal .container{
+    width: 70%;
+}
+.box-filme{
+    height: 70%;
+    width: 70%;
+    display: block;
+    margin-left: 30px; 
+    margin-right: 60px;   
+}
